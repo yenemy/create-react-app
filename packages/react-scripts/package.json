@@ -1,6 +1,6 @@
 {
   "name": "yenemy-react-scripts",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Multiple Entry Points variant for Create React App (v2.1.8).",
   "repository": "yenemy/create-react-app",
   "license": "MIT",
