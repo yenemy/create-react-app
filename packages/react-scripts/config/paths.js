@@ -18,7 +18,7 @@ const appDirectory = fs.realpathSync(process.cwd());
 const resolveApp = relativePath => path.resolve(appDirectory, relativePath);
 
 const envPublicUrl = process.env.PUBLIC_URL;
-const envEntryPoint = process.env.ENTRY_POINT || 'src/index';
+const envEntryPoint = process.env.REACT_APP_ENTRYPOINT || 'src/index';
 
 function ensureSlash(inputPath, needsSlash) {
   const hasSlash = inputPath.endsWith('/');
